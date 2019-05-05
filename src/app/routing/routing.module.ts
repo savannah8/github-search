@@ -1,4 +1,3 @@
-import { LandingPageComponent } from '../landing-page/landing-page.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule,Routes} from '@angular/router'
@@ -14,8 +13,7 @@ const routes:Routes=[
   {path:"searchbar",component:SearchbarComponent},
   {path:'searchbar/:id',component:SearchbarComponent},
   {path:"",redirectTo:"/searchbar",pathMatch:"full"},
-  {path:'**',component:NotFoundComponent},
-  {path: '', component: LandingPageComponent},
+  {path:'**',component:NotFoundComponent}
 
 ]
 
