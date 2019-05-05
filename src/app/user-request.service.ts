@@ -4,7 +4,7 @@ import {HttpClient} from '@angular/common/http'
 
 @Injectable()
 export class UserRequestService {
- apikey=environment.apiKey;
+ newapikey = environment.apiKey;
   username:string;
  private repo:string;
   constructor(private http:HttpClient) {
