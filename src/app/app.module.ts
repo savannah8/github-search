@@ -13,7 +13,8 @@ import {UserRequestService} from './user-request.service';
 import { NotFoundComponent } from './not-found/not-found.component';
 //import { UserdisplayComponent } from './userdisplay/userdisplay.component'
 import {RoutingModule} from './routing/routing.module';
-import { LandingPageComponent } from './landing-page/landing-page.component'
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { HighlightDirective } from './highlight.directive'
 
 const routes:Routes=[
   {path:"resultdisplay",component:ResultdisplayComponent},
@@ -30,6 +31,7 @@ const routes:Routes=[
     ResultdisplayComponent,
     NotFoundComponent,
     LandingPageComponent,
+    HighlightDirective,
   //  UserdisplayComponent
   ],
   imports: [

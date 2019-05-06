@@ -2,7 +2,7 @@
 <div class="container">
 
   <div class="jumbotron">
-      <h1>GitHub Search App/</h1>
+      <h1 appHighlight>GitHub Search App</h1>
       
   </div>
  
@@ -22,11 +22,11 @@
     <img src="{{users.avatar_url}}" alt="">
 </div>
 <div class="card" style="width:50%">
-<h1><i>Name:{{users.name}}</i></h1>
-<h4>Username:{{users.login}}</h4>
+<h1 appHighlight><i>Name:{{users.name}}</i></h1>
+<h4 appHighlight>Username:{{users.login}}</h4>
 
-<h4>followers:{{users.followers}}</h4>
-<h4>following:{{users.following}}</h4>
+<h4 appHighlight>followers:{{users.followers}}</h4>
+<h4 appHighlight>following:{{users.following}}</h4>
 
 <ul>
   <button class="btn btn-outline-success btn-md my-2 my-sm-0 ml-3"><a href="{{users.html_url}}">View Repos</a></button>
