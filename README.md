@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+## Description
+It is a Git HUb username search app used to search through GitHUb for all the users on GitHub.As a user you will be able to input a username and will also display the repositories and users.
+
 #### By **{Willen Gitonga}**
 
 ## Development server
